@@ -28,7 +28,7 @@ ul {
 }
 
 li a {
-    list-style-position: inline;
+    list-style-position: inside;
     text-decoration: none;
 }
 
