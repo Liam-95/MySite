@@ -25,10 +25,10 @@ ul {
     border: 3px solid brown;
     float: center;
     padding: 0px 5px 0px 5px;
+    list-style-position: inside;
 }
 
 li a {
-    list-style-position: inside;
     text-decoration: none;
 }
 
