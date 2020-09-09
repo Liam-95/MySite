@@ -1,86 +1,47 @@
-head {
-    background-color: yellow;
-}
-
 * {
     box-sizing: border-box;
 }
 
 body {
-    background-color: #fbeec1;
-}
-
-p {
-    color: black;
-    font-style: italic;
-    font-size: 30px;
+    background-color: #FFE4C4;
     text-align: center;
-}
-h1{
-    text-align: center;
-}
-
-li {
-    color: red;
-    font-size: 25px;
-    font-style: italic;
-    margin: 5px 0px 5px 0px;
-    text-align: center;
-}
-
-ul {
-    height: auto;
-    font-size: 2px;
-    display: block;
-    border-style: solid;
-    border-width: 1px;
-    width: 300px;
-    padding-left: 0px;
-    background-color: #daad86;
-    margin: 40px 200px 40px 600px;
-    list-style-position: inside;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
+    font-size: 4em;
     color: red;
-    font-size: 40px;
-    text-align: center;
-    font-style: italic;
+    margin: 30px;
 }
 
-#eve {
-    width: 30%;
-    height: 100%;
-    border-style: solid;
-    border-width: 1px;
-    margin-top: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+p {
+    font-size: 2em;
 }
 
-#end {
-    color: black;
-    font-size: 20px;
-    text-align: center;
-    font-style: italic;
+ul {
+    width: auto;
+    border: 3px solid brown;
+    float: center;
+    padding: 0px 5px 0px 5px;
 }
 
-a:hover {
-    font-size: 125%;
-}
-
-a {
+li a {
+    list-style-position: inline;
     text-decoration: none;
 }
 
-a:visited {
-    color: black;
+a:hover {
+    background-color: red;
 }
 
-#end:hover #end:active {
-    color: black;
-    margin-bottom: 1px;
-}
+@media(min-width: 0px) and(max-width: 991px) {
 
-<p id="end"><a href="liam.html">&copy; Liam</a></p>
+    h1 {
+        font-size: 0.9em;
+    }
+
+    p {
+        font-size: 0.35em;
+    }
+}
