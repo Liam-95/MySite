@@ -52,6 +52,7 @@ a:hover {
 
     p {
         font-size: 3vw;
+        color: green;
     }
 }
 
@@ -65,7 +66,7 @@ a:hover {
 
     p {
         font-size: 3vw;
-        color: green;
+        color: blue;
     }
 
 }
