@@ -82,16 +82,19 @@ img{
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-    h1 {
-        font-size: 5vw;
+   h1 {
+        font-size: 5.5vw;
     }
 
     p {
-        font-size: 3vw;
+        font-size: 4vw;
     }
 
     li a {
-        font-size: 2.5vw;
+        font-size: 3vw;
+    }
+    #end{
+        font-size: 3vw;
     }
 
 }
