@@ -108,10 +108,9 @@ img{
     }
 
     li a {
-        font-size: 2.5vw;
+        font-size: 3vw;
     }
     #end{
-        font-size: 2.5vw;
-        color: pink;
+        font-size: 3vw;
     }
 }
