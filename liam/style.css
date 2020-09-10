@@ -11,9 +11,9 @@ body {
 }
 
 h1 {
-    font-size: 4.5vw;
     color: red;
     margin: 30px;
+    text-align: center;
     margin-bottom: 15px;
 }
 
@@ -22,14 +22,15 @@ p {
     margin-top: 0px;
     font-size: 3vw;
     color: black;
+    text-align: center;
 }
-ul  {
+
+ul {
     width: auto;
     border: 3px solid brown;
     padding: 0px 0px 0px 0px;
     list-style-position: inside;
-    box-shadow: 0 0 3px #3f0c1f
-    margin-bottom:1px;
+    box-shadow: 0 0 3px #3f0c1f margin-bottom:1px;
 }
 
 li a {
@@ -44,7 +45,8 @@ a:hover {
 #end {
     font-size: 1.6vw;
 }
-img{
+
+img {
     box-shadow: 0 0 15px #3f0c1f
 }
 
@@ -58,6 +60,12 @@ img{
 
     p {
         font-size: 3vw;
+    }
+
+    ul {
+        width: 400px;
+        text-align: center;
+        display: inline-block;
     }
 
 }
@@ -78,32 +86,18 @@ img{
         font-size: 2.5vw;
     }
 
+    ul {
+        width: 400px;
+        text-align: center;
+        display: inline-block;
+    }
+
 }
 
 /*ipad*/
 /********** Small devices only **********/
 @media (min-width: 768px) and (max-width: 991px) {
 
-   h1 {
-        font-size: 5.5vw;
-    }
-
-    p {
-        font-size: 4vw;
-    }
-
-    li a {
-        font-size: 3vw;
-    }
-    #end{
-        font-size: 3vw;
-    }
-
-}
-
-/*iphone*/
-/********** Extra small devices only **********/
-@media(max-width: 767px) {
     h1 {
         font-size: 5.5vw;
     }
@@ -115,7 +109,44 @@ img{
     li a {
         font-size: 3vw;
     }
-    #end{
+
+    #end {
+        font-size: 3vw;
+    }
+
+    ul {
+        width: 400px;
+        text-align: center;
+        display: inline-block;
+    }
+
+}
+
+/*iphone*/
+/********** Extra small devices only **********/
+@media(max-width: 767px) {
+    h1 {
+        font-size: 5.5vw;
+        width: 450px;
+    }
+
+    p {
+        font-size: 4vw;
+        width: 403px;
+        padding-left: 65px;
+    }
+
+    li a {
+        font-size: 3vw;
+    }
+
+    ul {
+        width: 300px;
+        text-align: center;
+        display: inline-block;
+    }
+
+    #end {
         font-size: 3vw;
     }
 }
