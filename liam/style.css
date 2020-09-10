@@ -22,13 +22,12 @@ p {
     font-size: 3vw;
     color: black;
 }
-
 ul {
     width: auto;
     border: 3px solid brown;
-    float: center;
     padding: 0px 5px 0px 5px;
     list-style-position: inside;
+     box-shadow: 0 0 3px #3f0c1f
 }
 
 li a {
@@ -42,6 +41,9 @@ a:hover {
 
 #end {
     font-size: 1.6vw;
+}
+img{
+    box-shadow: 0 0 15px #3f0c1f
 }
 
 /*pc*/
@@ -109,7 +111,7 @@ a:hover {
         font-size: 2.5vw;
     }
     #end{
-        font-size: 2vw;
+        font-size: 2.5vw;
         color: pink;
     }
 }
