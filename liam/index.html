@@ -10,6 +10,7 @@
     <link rel="bootstrap-stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <h1>Welcome to Liam's Repository!</h1>
     <p>listed below few of my sorce codes for all sorts of projects
@@ -19,7 +20,11 @@
         <li><a href="C.html">C projects</a></li>
         <li><a href="python.html">Python projects</a></li>
     </ul>
-    <img id=eve src="eve5.jpg" width="600" height="800">
+    <picture>
+        <source srcset="eve5_resize.jpg" media="(max-width: 767px)">
+        <source srcset="eve5.jpg">
+        <img id=eve src="eve5.jpg" alt="myDog">
+    </picture>
     <p id="end">
         <a href="liam.html">&copy; Liam</a>
     </p>
