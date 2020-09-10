@@ -127,12 +127,10 @@ img {
 @media(max-width: 767px) {
     h1 {
         font-size: 5.5vw;
-        width: 450px;
     }
 
     p {
         font-size: 4vw;
-        width: 403px;
     }
 
     li a {
