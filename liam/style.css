@@ -16,7 +16,8 @@ h1 {
 }
 
 p {
-    margin: 15px;
+    margin: 5px;
+    margin-top:0px; 
     font-size: 3vw;
     color: black;
 }
