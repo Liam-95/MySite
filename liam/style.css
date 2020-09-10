@@ -43,7 +43,7 @@ a:hover {
 #end {
     font-size: 1.6vw;
 }
-
+/*pc*/
 /********** Large devices only **********/
 @media(min-width: 1200px) {
 
@@ -66,6 +66,7 @@ a:hover {
 
     p {
         font-size: 3vw;
+        color: grey;
     }
 
 }
