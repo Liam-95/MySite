@@ -53,11 +53,9 @@ a:hover {
 
     p {
         font-size: 3vw;
-        color: green;
     }
 
 }
-
 
 /********** Medium devices only **********/
 @media(min-width: 992px) and (max-width: 1199px) {
@@ -68,7 +66,6 @@ a:hover {
 
     p {
         font-size: 3vw;
-        color: blue;
     }
 
 }
@@ -82,7 +79,6 @@ a:hover {
 
     p {
         font-size: 3vw;
-        color: pink;
     }
 
 }
@@ -95,14 +91,9 @@ a:hover {
 
     p {
         font-size: 4vw;
-        color: red;
     }
 
     li a {
         font-size: 2.5vw;
-    }
-    picture{
-        width: 30%;
-        height: auto;
     }
 }
