@@ -64,11 +64,13 @@ a:hover {
 
     p {
         font-size: 3vw;
+        color: blue;
     }
+
 }
 
 /*extra sammll*/
-@media(max-width: 767px) {
+@media(max-width: 700px) {
     h1 {
         font-size: 5vw;
     }
