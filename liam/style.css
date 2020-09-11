@@ -55,9 +55,28 @@ img {
     box-shadow: 0 0 15px #3f0c1f
 }
 
-/*pc*/
+/* large - pc*/
+/********** Extra Large devices only **********/
+@media (min-width: 1200px) {
+    h1 {
+        font-size: 5vw;
+    }
+
+    p {
+        font-size: 3vw;
+    }
+
+    ul {
+        width: 400px;
+        text-align: center;
+        display: inline-block;
+    }
+
+}
+
+/* small - pc*/
 /********** Large devices only **********/
-@media(min-width: 1200px) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
 
     h1 {
         font-size: 5vw;
@@ -76,10 +95,11 @@ img {
 
 /*ipad*/
 /********** Medium devices only **********/
-@media(min-width: 769px) and (max-width: 1199px) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 
     h1 {
         font-size: 5vw;
+        columns: brown;
     }
 
     p {
@@ -99,10 +119,11 @@ img {
 
 /*ipad (sometimes)*/
 /********** Small devices only **********/
-@media (min-width: 577px) and (max-width: 768px) {
+@media (min-width: 576px) and (max-width: 767.98px) {
 
     h1 {
         font-size: 5.5vw;
+        color:green;
     }
 
     p {
@@ -127,7 +148,7 @@ img {
 
 /*iphone*/
 /********** Extra small devices only **********/
-@media(max-width: 576px) {
+@media (max-width: 575.98px) {
     h1 {
         font-size: 5.5vw;
     }
