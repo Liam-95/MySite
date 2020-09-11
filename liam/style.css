@@ -59,7 +59,14 @@ a:hover {
 img {
     box-shadow: 0 0 15px #3f0c1f
 }
+/*java page*/
+#javar{
+    margin: 30px;
+}
 
+.back{
+    margin: 15px;
+}
 /* large - pc*/
 /********** Extra Large devices only **********/
 @media (min-width: 1200px) {
