@@ -34,6 +34,10 @@ ul {
     box-shadow: 0 0 3px #3f0c1f margin-bottom:1px;
 }
 
+ul:hover {
+    box-shadow: 0 1px 5px 1px #cccccc
+}
+
 li a {
     text-decoration: none;
     font-size: 2vw;
@@ -57,7 +61,6 @@ img {
 
     h1 {
         font-size: 5vw;
-        color: yellow;
     }
 
     p {
@@ -69,16 +72,14 @@ img {
         text-align: center;
         display: inline-block;
     }
-
 }
 
-/*ipad (sometimes)*/
+/*ipad*/
 /********** Medium devices only **********/
 @media(min-width: 769px) and (max-width: 1199px) {
 
     h1 {
         font-size: 5vw;
-        color:grey;
     }
 
     p {
@@ -96,13 +97,12 @@ img {
     }
 }
 
-/*ipad*/
+/*ipad (sometimes)*/
 /********** Small devices only **********/
 @media (min-width: 577px) and (max-width: 768px) {
 
     h1 {
         font-size: 5.5vw;
-        color: blue;
     }
 
     p {
@@ -130,7 +130,6 @@ img {
 @media(max-width: 576px) {
     h1 {
         font-size: 5.5vw;
-        color:pink;
     }
 
     p {
