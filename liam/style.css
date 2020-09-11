@@ -57,6 +57,7 @@ img {
 
     h1 {
         font-size: 5vw;
+        color: yellow;
     }
 
     p {
@@ -77,6 +78,7 @@ img {
 
     h1 {
         font-size: 5vw;
+        color:grey;
     }
 
     p {
@@ -128,6 +130,7 @@ img {
 @media(max-width: 576px) {
     h1 {
         font-size: 5.5vw;
+        color:pink;
     }
 
     p {
