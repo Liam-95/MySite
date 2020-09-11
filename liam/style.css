@@ -80,6 +80,7 @@ img {
 
     h1 {
         font-size: 5vw;
+        color:pink;
     }
 
     p {
@@ -99,7 +100,7 @@ img {
 
     h1 {
         font-size: 5vw;
-        columns: brown;
+        columns: blue;
     }
 
     p {
