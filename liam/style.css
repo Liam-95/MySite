@@ -140,6 +140,7 @@ img {
 @media (max-width: 575.98px) {
     h1 {
         font-size: 5.5vw;
+        color:black;
     }
 
     p {
