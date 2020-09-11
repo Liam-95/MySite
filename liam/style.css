@@ -73,7 +73,7 @@ img {
 
 /*ipad (sometimes)*/
 /********** Medium devices only **********/
-@media(min-width: 769px) and (max-width: 992px) {
+@media(min-width: 769px) and (max-width: 1199px) {
 
     h1 {
         font-size: 5vw;
