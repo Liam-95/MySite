@@ -68,8 +68,6 @@ img {
         font-size: 3vw;
     }
 
-    ul {}
-
 }
 
 /*ipad (sometimes)*/
@@ -98,7 +96,7 @@ img {
 
     h1 {
         font-size: 5vw;
-        columns: blue;
+        color: blue;
     }
 
     p {
@@ -140,7 +138,6 @@ img {
 @media (max-width: 575.98px) {
     h1 {
         font-size: 5.5vw;
-        color:black;
     }
 
     p {
