@@ -25,6 +25,10 @@ p {
     text-align: center;
 }
 
+#listed {
+    width: 80%;
+}
+
 ul {
     width: 400px;
     border: 3px solid brown;
@@ -75,7 +79,6 @@ img {
 
     h1 {
         font-size: 5vw;
-        color: pink;
     }
 
     p {
@@ -87,6 +90,11 @@ img {
         text-align: center;
         display: inline-block;
     }
+
+    #end {
+        font-size: 3vw;
+    }
+}
 }
 
 /*ipad*/
@@ -95,7 +103,6 @@ img {
 
     h1 {
         font-size: 5vw;
-        color: blue;
     }
 
     p {
@@ -105,6 +112,11 @@ img {
     li a {
         font-size: 2.5vw;
     }
+
+    #end {
+        font-size: 3vw;
+    }
+}
 
 }
 
@@ -128,6 +140,13 @@ img {
         font-size: 3vw;
     }
 
+    #listed {
+        width: 90%;
+    }
+
+    #welcome {
+        width: 100%;
+    }
 
 }
 
