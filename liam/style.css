@@ -54,6 +54,7 @@ a:hover {
 
 #end {
     font-size: 1.8vw;
+    text-align: center;
 }
 
 img {
@@ -66,6 +67,20 @@ img {
 
 .back{
     margin: 15px;
+}
+footer{
+    margin: 5px;
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    opacity: .8;
+}
+#end1{
+    width: 100%;
+}
+#end a {
+     text-align: center;
+}
 }
 /* large - pc*/
 /********** Extra Large devices only **********/
