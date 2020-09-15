@@ -82,7 +82,6 @@ footer{
 #end a {
      text-align: center;
 }
-}
 /* large - pc*/
 /********** Extra Large devices only **********/
 @media (min-width: 1200px) {
@@ -118,7 +117,6 @@ footer{
         font-size: 3vw;
     }
 }
-}
 
 /*ipad*/
 /********** Medium devices only **********/
@@ -139,8 +137,6 @@ footer{
     #end {
         font-size: 3vw;
     }
-}
-
 }
 
 
