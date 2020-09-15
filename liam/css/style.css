@@ -75,6 +75,9 @@ img {
 .back {
     margin: 15px;
 }
+#welcome{
+    text-align: center;
+}
 
 footer {
     margin: 5px;
@@ -90,6 +93,10 @@ footer {
 
 #end a {
     text-align: center;
+}
+#nav-list{
+    text-align: center;
+    display: inline-block;
 }
 
 /* large - pc*/
