@@ -99,6 +99,9 @@ footer {
     text-align: center;
     display: inline-block;
 }
+#nav-list a {
+    color: bisque;
+}
 
 /* large - pc*/
 /********** Extra Large devices only **********/
