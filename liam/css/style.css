@@ -82,7 +82,7 @@ img {
 
 footer {
     margin: 5px;
-    background-color: black;
+    background-color: #c58842;
     width: 100%;
     height: 80px;
     opacity: .8;
@@ -214,7 +214,7 @@ footer {
     footer {
         margin-top: 5px;
         margin-bottom: 0;
-        background-color: black;
+        background-color: #c58842;;
         width: 100%;
         height: 70px;
         opacity: .8;
