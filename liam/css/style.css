@@ -153,6 +153,9 @@ footer {
     #end {
         font-size: 3vw;
     }
+    footer {
+        height: 60px;
+    }
     
 }
 
@@ -180,7 +183,6 @@ footer {
     }
 }
 
-
 /********** Small devices only **********/
 @media (min-width: 576px) and (max-width: 767.98px) {
 
@@ -205,8 +207,7 @@ footer {
     }
 
     #welcome {
-        width: 100%;
-        
+        width: 100%; 
     }
 
 }
