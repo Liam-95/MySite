@@ -10,7 +10,6 @@ body {
 }
 
 h1 {
-    color: red;
     margin: 10px;
     text-decoration: underline;
     margin-bottom: 15px;
@@ -78,7 +77,10 @@ img {
 #welcome{
     text-align: center;
     color: black;
+    background-color: #c58842;
 }
+#dWelcome{}
+
 
 footer {
     margin: 5px;
@@ -195,6 +197,7 @@ footer {
 
     #welcome {
         width: 100%;
+        
     }
 
 }
