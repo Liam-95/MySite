@@ -88,13 +88,20 @@ footer {
     opacity: .8;
 }
 
-#end1 {
+#end1 a {
+    margin:auto;
     width: 100%;
+    text-align: center;
 }
+#end {
+    text-align: center;
+}
+
 
 #end a {
     text-align: center;
     color: black;
+    font-size: 1.5em;
 }
 #nav-list{
     text-align: center;
@@ -102,6 +109,7 @@ footer {
 }
 #nav-list a {
     color: bisque;
+    font-size: 3.5vw;
 }
 
 /* large - pc*/
