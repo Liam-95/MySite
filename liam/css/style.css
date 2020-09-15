@@ -34,7 +34,8 @@ ul {
     border: 3px solid brown;
     padding: 0px 0px 0px 0px;
     list-style-position: inside;
-    box-shadow: 0 0 3px #3f0c1f margin-bottom:1px;
+    box-shadow: 0 0 3px #3f0c1f;
+    margin-bottom:1px;
     text-align: center;
     display: inline-block;
 }
