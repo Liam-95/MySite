@@ -61,7 +61,8 @@ a:hover {
 img {
     box-shadow: 0 0 15px #3f0c1f
 }
-#weber{
+
+#weber {
     color: crimson;
 
 }
@@ -200,5 +201,14 @@ footer {
 
     #end {
         font-size: 3vw;
+    }
+
+    footer {
+        margin-top: 5px;
+        margin-bottom: 0;
+        background-color: black;
+        width: 100%;
+        height: 70px;
+        opacity: .8;
     }
 }
