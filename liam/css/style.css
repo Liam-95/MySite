@@ -35,7 +35,7 @@ ul {
     padding: 0px 0px 0px 0px;
     list-style-position: inside;
     box-shadow: 0 0 3px #3f0c1f;
-    margin-bottom:1px;
+    margin-bottom: 1px;
     text-align: center;
     display: inline-block;
 }
@@ -61,27 +61,32 @@ a:hover {
 img {
     box-shadow: 0 0 15px #3f0c1f
 }
+
 /*java page*/
-#head{
+#head {
     margin: 30px;
 }
 
-.back{
+.back {
     margin: 15px;
 }
-footer{
+
+footer {
     margin: 5px;
     background-color: black;
     width: 100%;
     height: 100px;
     opacity: .8;
 }
-#end1{
+
+#end1 {
     width: 100%;
 }
+
 #end a {
-     text-align: center;
+    text-align: center;
 }
+
 /* large - pc*/
 /********** Extra Large devices only **********/
 @media (min-width: 1200px) {
