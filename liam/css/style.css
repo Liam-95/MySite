@@ -38,6 +38,9 @@ p {
     text-align: center;
     display: inline-block;
 }
+#block a {
+    color: #c58842;;
+}
 
 ul:hover {
     box-shadow: 0 1px 5px 1px #cccccc
@@ -73,19 +76,24 @@ img {
 
 .back {
     margin: 15px;
+    border: #3f0c1f;
+}
+.back li a{
+    font-size: 2vw;
+    border: #3f0c1f;
 }
 #welcome{
     text-align: center;
     color: black;
     background-color: #c58842;
+    text-decoration: underline;
 }
 
 footer {
     margin: 5px;
     background-color: #c58842;
     width: 100%;
-    height: 80px;
-    opacity: .8;
+    height: 70px;
 }
 
 #end1 a {
@@ -96,7 +104,6 @@ footer {
 #end {
     text-align: center;
 }
-
 
 #end a {
     text-align: center;
@@ -229,7 +236,6 @@ footer {
         margin-bottom: 0;
         background-color: #c58842;;
         width: 100%;
-        height: 60px;
-        opacity: .8;
+        height: 50px;
     }
 }
