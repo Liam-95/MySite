@@ -38,8 +38,10 @@ p {
     text-align: center;
     display: inline-block;
 }
+
 #block a {
-    color: #c58842;;
+    color: #c58842;
+    ;
 }
 
 ul:hover {
@@ -52,7 +54,7 @@ li a {
 }
 
 a:hover {
-    background-color:none;
+    background-color: none;
 }
 
 #end {
@@ -78,11 +80,13 @@ img {
     margin: 15px;
     border: #3f0c1f;
 }
-.back li a{
+
+.back li a {
     font-size: 2vw;
     border: #3f0c1f;
 }
-#welcome{
+
+#welcome {
     text-align: center;
     color: black;
     background-color: #c58842;
@@ -97,10 +101,11 @@ footer {
 }
 
 #end1 a {
-    margin:auto;
+    margin: auto;
     width: 100%;
     text-align: center;
 }
+
 #end {
     text-align: center;
 }
@@ -110,10 +115,12 @@ footer {
     color: black;
     font-size: 1.5em;
 }
-#nav-list{
+
+#nav-list {
     text-align: center;
     display: inline-block;
 }
+
 #nav-list a {
     color: bisque;
     font-size: 3.5vw;
@@ -150,13 +157,18 @@ footer {
         display: inline-block;
     }
 
+    #block {
+        width: 400px;
+    }
+
     #end {
         font-size: 3vw;
     }
+
     footer {
         height: 60px;
     }
-    
+
 }
 
 /*ipad*/
@@ -175,9 +187,14 @@ footer {
         font-size: 2.5vw;
     }
 
+    #block {
+        width: 400px;
+    }
+
     #end {
         font-size: 3vw;
     }
+
     footer {
         height: 60px;
     }
@@ -207,7 +224,7 @@ footer {
     }
 
     #welcome {
-        width: 100%; 
+        width: 100%;
     }
 
 }
@@ -239,7 +256,8 @@ footer {
     footer {
         margin-top: 5px;
         margin-bottom: 0;
-        background-color: #c58842;;
+        background-color: #c58842;
+        ;
         width: 100%;
         height: 50px;
     }
