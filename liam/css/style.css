@@ -136,6 +136,9 @@ footer {
     p {
         font-size: 3vw;
     }
+    #nav-list a {
+        font-size: 1vw;
+    }
 
 }
 
@@ -168,6 +171,9 @@ footer {
     footer {
         height: 60px;
     }
+    #nav-list a {
+        font-size: 1vw;
+    }
 
 }
 
@@ -197,6 +203,9 @@ footer {
 
     footer {
         height: 60px;
+    }
+    #nav-list a {
+        font-size: 1vw;
     }
 }
 
