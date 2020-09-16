@@ -71,11 +71,6 @@ img {
 
 }
 
-/*java page*/
-#head {
-    margin: 30px;
-}
-
 .back {
     margin: 15px;
     border: #3f0c1f;
@@ -113,7 +108,7 @@ footer {
 #end a {
     text-align: center;
     color: black;
-    font-size: 1.5em;
+    font-size: 2rem;
 }
 
 #nav-list {
@@ -124,6 +119,19 @@ footer {
 #nav-list a {
     color: bisque;
     font-size: 3.5vw;
+}
+.links p{
+    text-decoration: underline;
+}
+h2{
+    text-decoration: underline;
+    margin: 15px;
+}
+.llinks{
+    list-style-position: inside;
+}
+#under-construction{
+    color: red;
 }
 
 /* large - pc*/
