@@ -27,10 +27,14 @@ p {
 #listed {
     width: 80%;
 }
+#header-nav {
+    background-color:  #c58842;
+}
 
 #block {
     width: auto;
     border: 3px solid brown;
+    color: brown;
     padding: 0px 0px 0px 0px;
     list-style-position: inside;
     box-shadow: 0 0 3px #3f0c1f;
@@ -42,10 +46,6 @@ p {
 #block a {
     color: #c58842;
     ;
-}
-
-ul:hover {
-    box-shadow: 0 1px 5px 1px #cccccc
 }
 
 li a {
@@ -261,7 +261,6 @@ footer {
         margin-top: 5px;
         margin-bottom: 0;
         background-color: #c58842;
-        ;
         width: 100%;
         height: 50px;
     }
