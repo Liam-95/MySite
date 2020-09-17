@@ -105,4 +105,6 @@ var browser = this.matchItem(agent, browser);
 
 element.addEventListener(os === 'ios' ? 'mouseout' : 'blur', () => {
     $("#collapsable-nav").collapse('hide');
-  })
+})
+
+console.log(agent,os,browser);
