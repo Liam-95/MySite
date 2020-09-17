@@ -5,7 +5,7 @@ $(function () {
         //var screenWidth = window.innerWidth;
         $("#collapsable-nav").collapse('hide');
 
-        $("a").on("click", function (e) {
+        $("#navbarToggle").on("click", function (e) {
             if(e.handled !== true) {
                   e.handled = true
             } else {
