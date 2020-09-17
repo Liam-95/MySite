@@ -2,6 +2,8 @@ $(function () {
     $("#navbarToggle").blur(function (event) {
         var screenWidth = window.innerWidth;
         $("#collapsable-nav").collapse('hide');
+        $('*').click();
+        $('html').css('-webkit-tap-highlight-color', 'rgba(0, 0, 0, 0)');
 
     });
 });
