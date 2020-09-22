@@ -30,6 +30,15 @@ p {
 #header-nav {
     background-color:  #c58842;
 }
+#social{
+    background-color: #c58842;
+}
+#social.row{
+    display: inline;
+}
+#social.row a{
+    color: black;
+}
 
 #block {
     width: auto;
