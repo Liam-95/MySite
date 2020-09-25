@@ -148,6 +148,11 @@ h2{
     h1 {
         font-size: 5vw;
     }
+    ul {
+        width: 400px;
+        text-align: center;
+        display: inline-block;
+    }
 
     p {
         font-size: 3vw;
