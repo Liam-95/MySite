@@ -153,6 +153,9 @@ h2{
         text-align: center;
         display: inline-block;
     }
+    #block {
+        width: 400px;
+    }
 
     p {
         font-size: 3vw;
