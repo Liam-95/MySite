@@ -154,6 +154,13 @@ h2{
     #nav-list a {
         font-size: 1.5vw;
     }
+    #break{
+        display: none;
+    }
+    footer {
+        height: 60px;
+    }
+
 
 }
 
@@ -184,10 +191,13 @@ h2{
     }
 
     footer {
-        height: 60px;
+        height: 55px;
     }
     #nav-list a {
         font-size: 2vw;
+    }
+    #break{
+        display: none;
     }
 
 }
@@ -222,6 +232,7 @@ h2{
     #nav-list a {
         font-size: 2vw;
     }
+    
 }
 
 /********** Small devices only **********/
@@ -254,6 +265,9 @@ h2{
     #block {
         width: 300px;
     }
+    #break{
+        display: none;
+    }
 
 }
 
@@ -285,5 +299,8 @@ h2{
         margin-top: 5px;
         margin-bottom: 0;
         font-size: 4vw;
+    }
+    #break{
+        display: none;
     }
 }
