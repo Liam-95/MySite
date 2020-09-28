@@ -146,6 +146,9 @@ h2{
     bottom: 0px; 
     text-align: center;
 }
+#content{
+    position: relative;
+}
 
 /* large - pc*/
 /********** Extra Large devices only **********/
