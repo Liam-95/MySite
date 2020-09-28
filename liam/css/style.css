@@ -27,9 +27,11 @@ p {
 #listed {
     width: 80%;
 }
+
 #header-nav {
-    background-color:  #c58842;
+    background-color: #c58842;
 }
+
 #block {
     width: auto;
     border: 3px solid brown;
@@ -94,7 +96,8 @@ footer {
     height: auto;
     font-size: 3vw;
 }
-.social{
+
+.social {
     text-decoration: none;
     color: black;
     font-size: larger;
@@ -125,30 +128,38 @@ footer {
     color: bisque;
     font-size: 3.5vw;
 }
-.links p{
+
+.links p {
     text-decoration: underline;
 }
-h2{
+
+h2 {
     text-decoration: underline;
     margin: 15px;
 }
-.llinks{
+
+.llinks {
     list-style-position: inside;
 }
-#under-construction{
+
+#under-construction {
     color: red;
 }
-#cer{
+
+#cer {
     font-size: 2.5vw;
 }
-#down{
-    position: absolute;
-    bottom: 0px; 
-    text-align: center;
-}
-#content{
+
+#content {
     position: relative;
 }
+
+#down {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+}
+
 
 /* large - pc*/
 /********** Extra Large devices only **********/
@@ -156,11 +167,13 @@ h2{
     h1 {
         font-size: 5vw;
     }
+
     ul {
         width: 400px;
         text-align: center;
         display: inline-block;
     }
+
     #block {
         width: 400px;
     }
@@ -168,12 +181,15 @@ h2{
     p {
         font-size: 3vw;
     }
+
     #nav-list a {
         font-size: 1.5vw;
     }
-    #break{
+
+    #break {
         display: none;
     }
+
     footer {
         height: 70px;
     }
@@ -210,10 +226,12 @@ h2{
     footer {
         height: 55px;
     }
+
     #nav-list a {
         font-size: 2vw;
     }
-    #break{
+
+    #break {
         display: none;
     }
 
@@ -246,10 +264,11 @@ h2{
     footer {
         height: 60px;
     }
+
     #nav-list a {
         font-size: 2vw;
     }
-    
+
 }
 
 /********** Small devices only **********/
@@ -282,7 +301,8 @@ h2{
     #block {
         width: 300px;
     }
-    #break{
+
+    #break {
         display: none;
     }
 
@@ -318,7 +338,8 @@ h2{
         font-size: 4vw;
         height: auto;
     }
-    #break{
+
+    #break {
         display: none;
     }
 }
