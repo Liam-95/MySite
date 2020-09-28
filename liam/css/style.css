@@ -308,7 +308,7 @@ h2{
         margin-top: 5px;
         margin-bottom: 0;
         font-size: 4vw;
-        height: 50px;
+        height: auto;
     }
     #break{
         display: none;
