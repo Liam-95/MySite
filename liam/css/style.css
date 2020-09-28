@@ -144,8 +144,6 @@ h2{
 #down{
     position: absolute;
     bottom: 0px; 
-    right: auto;
-    left: auto;
     text-align: center;
 }
 
