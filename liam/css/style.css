@@ -24,6 +24,11 @@ p {
     text-align: center;
 }
 
+#game{
+    font-size: large;
+    background-color: coral;
+}
+
 #listed {
     width: 80%;
 }

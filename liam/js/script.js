@@ -1,3 +1,4 @@
+"use strict";
 $(function () {
     $("#navbarToggle").blur(function (event) {
         $('#navbarToggle').click();
