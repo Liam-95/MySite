@@ -1,9 +1,0 @@
-smarticulous/db/Submission.java
- smarticulous.db.Submission
-smarticulous/db/User.java
- smarticulous.db.User
-smarticulous/db/Exercise.java
- smarticulous.db.Exercise
- smarticulous.db.Exercise$Question
-smarticulous/Smarticulous.java
- smarticulous.Smarticulous
