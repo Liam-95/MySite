@@ -28,6 +28,9 @@ p {
     font-size: large;
     background-color: rgba(248, 179, 5, 0.2);
 }
+#guess-game{
+    font-size: medium;
+}
 
 #listed {
     width: 80%;
