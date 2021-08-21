@@ -10,15 +10,13 @@ body {
 }
 
 h1 {
-    margin: 10px;
     text-decoration: underline;
-    margin-bottom: 15px;
+    margin: 10px 10px 15px;
     text-align: center;
 }
 
 p {
-    margin: 5px;
-    margin-top: 0px;
+    margin: 0 5px 5px;
     font-size: 3vw;
     color: black;
     text-align: center;
@@ -48,7 +46,7 @@ p {
     width: auto;
     border: 3px solid brown;
     color: brown;
-    padding: 0px 0px 0px 0px;
+    padding: 0 0 0 0;
     list-style-position: inside;
     box-shadow: 0 0 3px #3f0c1f;
     margin-bottom: 5px;
@@ -168,7 +166,7 @@ h2 {
 
 #down {
     position: relative;
-    bottom: 0px;
+    bottom: 0;
 }
 
 
@@ -210,7 +208,7 @@ h2 {
 
 /*ipad (sometimes)*/
 /********** Large devices only **********/
-@media (min-width: 992px) and (max-width: 1199.98px) {
+@media (min-width: 992px) and (max-width: 1199px) {
 
     h1 {
         font-size: 5vw;
@@ -250,7 +248,7 @@ h2 {
 
 /*ipad*/
 /********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991.98px) {
+@media (min-width: 768px) and (max-width: 991px) {
 
     h1 {
         font-size: 5vw;
@@ -283,7 +281,7 @@ h2 {
 }
 
 /********** Small devices only **********/
-@media (min-width: 576px) and (max-width: 767.98px) {
+@media (min-width: 576px) and (max-width: 767px) {
 
     h1 {
         font-size: 5.5vw;
@@ -317,7 +315,7 @@ h2 {
 
 /*iphone*/
 /********** Extra small devices only **********/
-@media (max-width: 575.98px) {
+@media (max-width: 575px) {
     h1 {
         font-size: 5.5vw;
         margin-bottom: 10px;
