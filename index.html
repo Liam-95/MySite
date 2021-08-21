@@ -110,11 +110,15 @@
 <div class="container align-items-center" id="game">
     <div class="container align-items-center responsive">
         <h3>Lets play a game!</h3>
-        <p>Guess which char I'm thinking off <br>(English letter or a digit):</p>
-        <label for="userInput">Try your guess:</label><br>
+        <p>Guess which character I'm thinking on <br>(English letter or a single digit)</p>
+        <label for="userInput">Your guess:</label><br>
         <input id="userInput" type="text" name="guess"><br>
-        <input id="subB" type="submit" value="Send"><br>
-        <input id="reset" type="reset" value="Reset"><br>
+        <div class="container">
+            <input id="subB" type="submit" value="Send"><br>
+        </div>
+        <div class="container">
+            <input id="reset" type="submit" value="Reset"><br>
+        </div>
         <p class="pgame" id="count"></p>
         <p class="pgame" id="status"></p>
         <p class="pgame" id="hint"></p>
