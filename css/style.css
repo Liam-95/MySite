@@ -23,7 +23,7 @@ p {
 }
 
 #game{
-    font-size: large;
+    font-size: medium;
     background-color: rgba(248, 179, 5, 0.2);
 }
 #guess-game{
@@ -167,6 +167,9 @@ h2 {
 #down {
     position: relative;
     bottom: 0;
+}
+.pgame{
+    font-size: x-large;
 }
 
 
