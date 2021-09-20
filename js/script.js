@@ -41,6 +41,7 @@ function gameSubmit() {
             stat.style.backgroundColor = "yellow";
             count.innerHTML = "Attempts: " + counter.toString();
             hint.innerHTML = "";
+            userIn.setAttribute('readonly', true);
             reset.value = "Again?"
         } else {
             stat.innerHTML = 'Failed! try again!'
@@ -69,6 +70,7 @@ function randomChar() {
 
 // reset the game
 function customReset() {
+    userIn.setAttribute('readonly', false);
     finish = false;
     reset.value = "Reset";
     let params = document.querySelectorAll('.pgame');
