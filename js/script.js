@@ -25,7 +25,9 @@ function gameSubmit() {
     if (counter === 0) {
         picked = randomChar();
     }
-    counter++;
+    if (stat.innerHTML !== 'Success! great job!') {
+        counter++;
+    }
     let guessed = userIn.value.toLowerCase();
     if (guessed.length !== 1 || !characters.includes(guessed)) {
         alert("You need to guess one character (letter | digit | special character)")
