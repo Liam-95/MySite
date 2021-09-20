@@ -70,7 +70,7 @@ function randomChar() {
 
 // reset the game
 function customReset() {
-    userIn.setAttribute('readonly', false);
+    userIn.removeAttribute("readonly");
     finish = false;
     reset.value = "Reset";
     let params = document.querySelectorAll('.pgame');
